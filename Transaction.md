@@ -80,7 +80,7 @@ Abort ( 트랜잭션 철회)
 
 **갱신 손실 (EX)**
 
-![Untitled](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/Untitled.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/248883733-ee2a0f8e-74e6-45e5-bbce-c952debeae12.png)
 
 - 직렬 스케줄의 경우 X = 250000 , Y = 700000
 
@@ -89,13 +89,13 @@ Abort ( 트랜잭션 철회)
 
 **Dirty Read (EX)**
 
-![Untitled](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/Untitled%201.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/248883790-a0d110de-7efc-4ca8-9bf4-8a98590b3750.png)
 
 - T1은 ROLLBACK 되었지만 T2의 AVG는 ROLLBACK 되기 이전의 값을 가지고 있다.
 
 **Unrepeatable Read (EX)**
 
-![Untitled](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/Untitled%202.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/248883820-9103ed2e-5006-4d3e-9fd1-cd0aae0d0782.png)
 
 - T2의 두번의 SELECT 연산의 결과가 다르다 !
 
@@ -123,7 +123,7 @@ Abort ( 트랜잭션 철회)
 
 **Lock 양립성 행렬**
 
-![Untitled](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/Untitled%203.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/248883877-42614631-4512-49f7-b8a3-98c62100b2f8.png)
 
 **2PL(2-phase locking) Protocol**
 
@@ -150,7 +150,7 @@ Abort ( 트랜잭션 철회)
 
 - 두 개 이상의 트랜잭션들이 서로 상대방이 보유한 락을 요청하면서 대기하는 상태
 
-![Untitled](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/Untitled%204.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/248883887-b9a5f5d2-d191-498f-bd7f-3a96e1ceb4be.png)
 
 - 위 그림에서 T1은 Y에 대한 락을 보유 , T2는 X에 대한 락을 보유 (서로가 반대된 락을 요청)
 
@@ -185,7 +185,7 @@ Abort ( 트랜잭션 철회)
 
 - 한 트랜잭션 내에서 같은 쿼리 두번 실행 → **첫 번째 쿼리에서 없던 유령 레코드가 두 번째 쿼리에서 나타나는** 현상
 
-![Untitled](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/Untitled%205.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/248883978-4dc9dab4-2c8b-40c6-ae6c-c4e5ff719a33.png)
 
 - T1에서 동일한 쿼리를 두번 수행 → 없던 ‘정희연’의 데이터가 두번째 쿼리에서 나타날 것이다.
 
@@ -209,7 +209,7 @@ Abort ( 트랜잭션 철회)
 - DBMS 회복 모듈은 로그를 검사
     - start , commit 로그 레코드가 모두 존재하는 트랜잭션 재수행
 
-![Untitled](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/Untitled%206.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/248884002-2ca8d009-ca2c-4fc2-9ca4-08fc4799ea01.png)
 
 ### Shadow Paging( 그림자 페이징 )
 
@@ -249,7 +249,7 @@ Abort ( 트랜잭션 철회)
 
 ### 종합 비교
 
-![Untitled](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/Untitled%207.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/248884018-0d5123f2-8581-438e-8760-db2bbb04c7ea.png)
 
 출처 : [https://itpenote.tistory.com/629](https://itpenote.tistory.com/629)
 
@@ -270,7 +270,7 @@ Abort ( 트랜잭션 철회)
 - 트랜잭션 테이블
 - 오손 페이지 테이블
 
-![Untitled](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/Untitled%208.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/248884034-0643593e-2c0f-47d2-aac2-f4c85d474186.png)
 
 ## 고립 수준
 
@@ -319,4 +319,4 @@ Abort ( 트랜잭션 철회)
 - `Dirty Read`
     - 커밋되지 않은 트랜잭션의 내용을 읽는 것
 
-![output.gif](Transaction%202a9a39140e7e4894b90ee070ed5f1b1a/output.gif)
+![output.gif](https://user-images.githubusercontent.com/84346055/248884095-e92b73c5-795f-4f66-8b83-bfb7a4b74c1e.gif)
