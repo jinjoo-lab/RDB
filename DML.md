@@ -67,7 +67,7 @@ WHERE EMPNO = 2106;
 
 - **트리거 형식**
 
-![Alt text](https://user-images.githubusercontent.com/84346055/254495698-ba6f1d08-faf8-441f-ab86-8121209f876c.png)
+![Alt text](https://user-images.githubusercontent.com/84346055/254495698-ba6f1d08-faf8-441f-ab86-8121209f876c.pnggi)
 
 - **트리거 분류**
     - 이벤트 발생 전의 트리거(BEFORE) or 이벤트 발생 후의 트리거(AFTER)
