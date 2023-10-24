@@ -11,3 +11,4 @@
 | Transaction |[Transaction](https://github.com/jinjoo-lab/RDB/blob/main/Transaction.md)|
 | InnoDB | [InnoDB Architecture,Buffer Pool](https://github.com/jinjoo-lab/RDB/blob/main/InnoDB.md)|
 | InnoDB2 | [Undo Log,Redo Log,Change Buffer,Adaptive Hash Index](https://github.com/jinjoo-lab/RDB/blob/main/InnoDB2.md)|
+| Normalization | [정규화](https://github.com/jinjoo-lab/RDB/blob/main/Normalization.md)|
