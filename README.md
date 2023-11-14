@@ -14,3 +14,4 @@
 | Normalization | [정규화](https://github.com/jinjoo-lab/RDB/blob/main/Normalization.md)|
 | Lock | [Lock](https://github.com/jinjoo-lab/RDB/blob/main/Lock.md)|
 | DeadLock | [DeadLock](https://github.com/jinjoo-lab/RDB/blob/main/DeadLock.md)|
+| JOIN | [JOIN](https://github.com/jinjoo-lab/RDB/blob/main/JOIN.md)|
