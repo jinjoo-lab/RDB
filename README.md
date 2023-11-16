@@ -17,17 +17,25 @@
         - B+ Tree
     - Clustered Index vs Non-Clustered Index
     - Covering Index
+ 
 - Transaction (주원)
     - ACID
+
 - RDB의 근본적인 구조 (MySQL) (승진)
+  
 - Lock (승진)
+  
 - DeadLock (준우)
+  
 - 정규화(Normalization) (주원)
+  
 - SQL (승진)
     - JOIN
     - Optimizer
+
 - NoSQL vs SQL (준우)
 - Sharding, Partitioning (준우)
+
 - Clustering, Master-Slave, Replica(주원)
 
 ### 복습 정리 파일
