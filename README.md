@@ -1,4 +1,33 @@
-## Real MySQL 8.0 서적을 기본으로 하는 RDB 복습 레포지토리
+## Real MySQL 8.0 과 기술 블로그를 바탕으로 하는 데이터 베이스 스터디 복습 레포지토리
+### 스터디 진행 방식
+
+시간: 매주 일요일 오전 11시 (경우에 따라 변동 가능)
+장소: 구글 밋
+시간: 1시간 ~
+주제: Spring, **CS 지식(데이터베이스)**
+
+### 스터디 내용
+**Database**
+- Index
+    - Index의 자료구조
+        - B tree
+        - B+ Tree
+    - Clustered Index vs Non-Clustered Index
+    - Covering Index
+- Transaction (주원)
+    - ACID
+- RDB의 근본적인 구조 (MySQL) (승진)
+- Lock (승진)
+- DeadLock (준우)
+- 정규화(Normalization) (주원)
+- SQL (승진)
+    - JOIN
+    - Optimizer
+- NoSQL vs SQL (준우)
+- Sharding, Partitioning (준우)
+- Clustering, Master-Slave, Replica(주원)
+
+### 복습 정리 파일
 | 이론 | 첨부(md 파일) |
 | --- | --- |
 | DML |[SQL_DML](https://github.com/jinjoo-lab/RDB/blob/main/DML.md)|
@@ -17,3 +46,4 @@
 | JOIN | [JOIN](https://github.com/jinjoo-lab/RDB/blob/main/JOIN.md)|
 | JOIN 수행 원리 | [JOIN_2](https://github.com/jinjoo-lab/RDB/blob/main/JOIN_2.md)|
 | Partitioning | [Partitioning](https://github.com/jinjoo-lab/RDB/blob/main/Partitioning.md)|
+| Sharding | [Sharding](https://github.com/jinjoo-lab/RDB/blob/main/Sharding.md)|
