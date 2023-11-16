@@ -9,6 +9,8 @@
 
 주제: Spring, **CS 지식(데이터베이스)**
 
+스터디 노션 : [Sunday-Study](https://junu-park.notion.site/16c177d528fd4ef8b6bb8a3823b8db28?pvs=4)
+
 ### 스터디 내용
 **Database**
 - Index
