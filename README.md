@@ -16,3 +16,4 @@
 | DeadLock | [DeadLock](https://github.com/jinjoo-lab/RDB/blob/main/DeadLock.md)|
 | JOIN | [JOIN](https://github.com/jinjoo-lab/RDB/blob/main/JOIN.md)|
 | JOIN 수행 원리 | [JOIN_2](https://github.com/jinjoo-lab/RDB/blob/main/JOIN_2.md)|
+| Partitioning | [Partitioning](https://github.com/jinjoo-lab/RDB/blob/main/Partitioning.md)|
