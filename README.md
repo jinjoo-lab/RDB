@@ -1,4 +1,5 @@
 ## Real MySQL 8.0 과 기술 블로그를 바탕으로 하는 데이터 베이스 스터디 복습 레포지토리
+![LOGO](https://user-images.githubusercontent.com/84346055/283545309-cd436dcf-11a3-4f30-8996-913a8d706dcd.jpeg)
 ### 스터디 진행 방식
 
 시간: 매주 일요일 오전 11시 (경우에 따라 변동 가능)
