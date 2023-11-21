@@ -45,3 +45,4 @@
 | JOIN 수행 원리 | [JOIN_2](https://github.com/jinjoo-lab/RDB/blob/main/JOIN_2.md)|
 | Partitioning | [Partitioning](https://github.com/jinjoo-lab/RDB/blob/main/Partitioning.md)|
 | Sharding | [Sharding](https://github.com/jinjoo-lab/RDB/blob/main/Sharding.md)|
+| RDB VS NoSQL |[RDB VS NoSQL](https://github.com/jinjoo-lab/RDB/blob/main/NoSQL.md)|
