@@ -46,3 +46,4 @@
 | Partitioning | [Partitioning](https://github.com/jinjoo-lab/RDB/blob/main/Partitioning.md)|
 | Sharding | [Sharding](https://github.com/jinjoo-lab/RDB/blob/main/Sharding.md)|
 | RDB VS NoSQL |[RDB VS NoSQL](https://github.com/jinjoo-lab/RDB/blob/main/NoSQL.md)|
+| Replication | [Replication](https://github.com/jinjoo-lab/RDB/blob/main/Replication.md)|
